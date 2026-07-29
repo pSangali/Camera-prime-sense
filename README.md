@@ -1,5 +1,10 @@
 # ◈ PrimeSense Carmine — Painel de Controle
 
+![GitHub](https://img.shields.io/github/license/pSangali/Camera-prime-sense)
+![GitHub issues](https://img.shields.io/github/issues/pSangali/Camera-prime-sense)
+![GitHub stars](https://img.shields.io/github/stars/pSangali/Camera-prime-sense)
+![GitHub forks](https://img.shields.io/github/forks/pSangali/Camera-prime-sense)
+
 Interface gráfica (GUI) em **CustomTkinter** para visualização em tempo real dos streams de uma câmera de profundidade **PrimeSense Carmine 1.09 (Short Range)** através do **OpenNI2**.
 
 Permite alternar entre os sensores de profundidade, infravermelho e cor, exibir múltiplos streams simultaneamente em grade, aplicar colormaps na imagem de profundidade e realçar a qualidade visual dos frames.
@@ -72,7 +77,9 @@ python3 main.py
 
 Ao iniciar, a aplicação abre no modo **Profundidade**. Use a sidebar para alternar entre os modos e ajustar as opções.
 
-### Controles
+---
+
+## Controles
 
 | Botão / Controle        | Ação                                                |
 |-------------------------|-----------------------------------------------------|
@@ -113,3 +120,4 @@ A aplicação é composta por uma única classe `XtionAppGUI` (herda de `ctk.CTk
 
 - Os caminhos de biblioteca e o nome do dispositivo são específicos para Linux x86_64; portabilidade para Windows/macOS exige ajustar a inicialização do OpenNI2.
 - O loop de atualização usa `after(16, ...)`; em hardware mais limitado, aumentar esse intervalo reduz o uso de CPU.
+
