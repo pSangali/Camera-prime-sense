@@ -1,10 +1,5 @@
 # ◈ PrimeSense Carmine — Painel de Controle
 
-![GitHub](https://img.shields.io/github/license/pSangali/Camera-prime-sense)
-![GitHub issues](https://img.shields.io/github/issues/pSangali/Camera-prime-sense)
-![GitHub stars](https://img.shields.io/github/stars/pSangali/Camera-prime-sense)
-![GitHub forks](https://img.shields.io/github/forks/pSangali/Camera-prime-sense)
-
 Interface gráfica (GUI) em **CustomTkinter** para visualização em tempo real dos streams de uma câmera de profundidade **PrimeSense Carmine 1.09 (Short Range)** através do **OpenNI2**.
 
 Permite alternar entre os sensores de profundidade, infravermelho e cor, exibir múltiplos streams simultaneamente em grade, aplicar colormaps na imagem de profundidade e realçar a qualidade visual dos frames.
